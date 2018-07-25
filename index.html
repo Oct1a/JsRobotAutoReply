@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>客服聊天系统</title>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+    <div id="cat_sever">
+        <!--机器人客服-->
+        <div class="robot">
+            <div class="avatar">
+                <img src="./images/robot_avatar.jpg">
+            </div>
+            <div class="cat">
+                <span id="robot_contents">你好!有什么可以帮你的吗？^_^</span>
+            </div>
+        </div>
+        <!--用户-->
+        <div class="user" style="display: none;">
+            <div class="avatar">
+                <img src="./images/avatar.jpg">
+            </div>
+            <div class="cat">
+                <span id="user_contents">你好!^_^</span>
+            </div>
+        </div>
+    </div>
+    <div class="send_chat">
+        <input onkeypress="if(event.keyCode==13){document.getElementById('send').click()}" type="text" id="contents" required pattern=".{1,}" oninvalid="setCustomValidity('两至五个汉字')" oninput="setCustomValidity('')">
+        <button type="submit" id="send">发送</button>
+    </div>
+</body>
+<!--使用Javascript-->
+<!-- <script src="js/js_show.js" type="text/javascript" charset="utf-8"></script> -->
+<!--使用Jquery-->
+<script src="js/jq_show.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
