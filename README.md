@@ -1,2 +1,0 @@
-# RobotAutoReply
-基于ajax和图灵机器人开发的自动回复机器人
