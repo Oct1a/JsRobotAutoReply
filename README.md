@@ -4,7 +4,7 @@
 
 效果图如下：
 
-![](http://pb4oumact.bkt.clouddn.com/20180725173443.png)
+![](./images/resultImg.jpg)
 
 <!--more-->
 
@@ -21,11 +21,11 @@
 
 ## 使用流程
 
-###获取APIKEY（获取对接口访问的权限）
+### 获取APIKEY（获取对接口访问的权限）
 
 注册->登录->创建机器人->管理机器人->复制APIKEY
 
-###编码方式
+### 编码方式
 
 UTF-8（调用图灵API的各个环节的编码方式均为UTF-8）
 
@@ -50,7 +50,7 @@ API接口：<http://openapi.tuling123.com/openapi/api/v2>
 
 [http://www.tuling123.com/openapi/api?key=APIKEY&info=你好](http://www.tuling123.com/openapi/api?key=KEY&info=你好)
 
-####输出示例
+#### 输出示例
 
 ```
 {
